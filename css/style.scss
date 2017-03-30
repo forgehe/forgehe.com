@@ -1,0 +1,339 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Arial, Helvetica;
+  background: #3b424a;
+  a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+  }
+}
+
+@font-face {
+  font-family: 'Antonio-Regular';
+  src: url('../fonts/Antonio-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Georgia Italic';
+  src: url('../fonts/Georgia Italic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+input {
+  &[type="button"], &[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  margin: 0;
+}
+
+/*-----start-header----*/
+
+.header {
+  background: #282828;
+  padding: 2em 0;
+}
+
+.pages {
+  h1 {
+    font-size: 2.441em;
+  }
+  h2 {
+    font-size: 1.953em;
+  }
+  h3, h4 {
+    font-size: 1.563em;
+  }
+  h5, h6 {
+    font-size: 1.25em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+li, span {
+  font-size: 0.75em;
+}
+
+.pages {
+  float: left;
+  margin-top: 1em;
+  ul {
+    display: inline-block;
+    min-width: 6em;
+  }
+  li {
+  display: inline-block;
+  min-width: 6em;
+}
+}
+
+
+
+.pages ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 1em;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Antonio-Regular';
+  &.active {
+    border-bottom: 1.2em solid #1ac7c3;
+  }
+  &:hover {
+    color: #1ac7c3;
+  }
+}
+
+.navigation {
+  margin-top: 0.8em;
+  ul li {
+    display: inline-block;
+    margin: 0 0 0 2.5em;
+    a {
+      color: #FFFFFF;
+      font-family: 'Georgio-Italic';
+      font-style: italic;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: 300;
+      &.active, &:hover {
+        color: #1ac7c3;
+      }
+    }
+  }
+}
+
+.logo {
+  float: left;
+  a {
+    h1 {
+      font-family: 'Antonio-Regular';
+      color: #fff;
+      font-size: 3em;
+      font-weight: 400;
+    }
+    text-decoration: none;
+  }
+}
+
+.navigation {
+  float: right;
+}
+
+/*-------------Body Content----------*/
+
+.body-content {
+  min-height: 75vh;
+  font-size: 1.35em;
+  font-weight: 300;
+  font-family: Helvetica;
+  padding: 0.5em 2em;
+  background: #efefef;
+  border-radius: 2em;
+  margin: 1em 0;
+  h1 {
+    font-family: "Ubuntu";
+  }
+}
+
+h2, h3, h4, h5, h6, p, li, span {
+  font-family: "Ubuntu";
+}
+
+.body-content {
+  h1 {
+    font-size: 2.369em;
+    padding: 0.25em 0;
+    text-indent: 0.2em;
+  }
+  h2 {
+    font-size: 1.777em;
+    padding: 0.2em 0;
+    text-indent: 0.25em;
+  }
+  h3 {
+    font-size: 1.333em;
+    padding: 0.15em 0;
+    text-indent: 0.3em;
+  }
+  h4 {
+    font-size: 1.333em;
+    padding: 0.1em 0;
+    text-indent: 0.35em;
+  }
+  h5 {
+    font-size: 1em;
+    padding: 0.1em 0;
+    text-indent: 0.4em;
+  }
+  h6 {
+    font-size: 1em;
+    padding: 0;
+    text-indent: 0.4em;
+  }
+  p {
+    font-size: 0.75em;
+    padding: 0;
+  }
+}
+
+li, span {
+  font-size: 0.75em;
+  padding: 0;
+}
+
+.body-content {
+  a {
+    font-weight: bold;
+    color: #111111;
+  }
+  li {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 2em;
+  }
+}
+
+.fuckyouiwasright :hover {
+  -webkit-animation-name: fuckyouiwasright;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fuckyouiwasright;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fuckyouiwasright {
+  0% {
+    opacity: 1.0;
+    color: #FFFF00;
+  }
+
+  25% {
+    color: #FD1C03;
+  }
+
+  50% {
+    opacity: 0.2;
+    color: #00FF00;
+  }
+
+  75% {
+    color: #00FFFF;
+  }
+
+  100% {
+    opacity: 1.0;
+    color: #FF00CC;
+  }
+}
+
+
+@keyframes fuckyouiwasright {
+  0% {
+    opacity: 1.0;
+    color: #FFFF00;
+  }
+
+  25% {
+    color: #FD1C03;
+  }
+
+  50% {
+    opacity: 0.2;
+    color: #00FF00;
+  }
+
+  75% {
+    color: #00FFFF;
+  }
+
+  100% {
+    opacity: 1.0;
+    color: #FF00CC;
+  }
+}
+
+
+.footer-top {
+  background: #282828;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.footer-menu {
+  h4 {
+    color: #737c85;
+    margin-bottom: 1em;
+    font-size: 1.333em;
+    font-weight: 600;
+    font-family: 'Ubuntu';
+  }
+  a {
+    color: #737c85;
+    font-weight: 100;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.8em;
+    font-family: 'Ubuntu';
+    &:hover {
+      color: #fff;
+    }
+  }
+  ul li {
+    display: inline-block;
+    min-width: 8em;
+  }
+}
+
+.footer-bottom {
+  background: #131313;
+  padding: 0.25em 0;
+}
+
+.copyrights p {
+  color: #737c85;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: Helvetica, sans-serif;
+  a {
+    color: #737c85;
+    font-family: Helvetica, sans-serif;
+  }
+}
