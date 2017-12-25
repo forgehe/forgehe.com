@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+    <body>
+        <h1><a href="https://www.instagram.com/forgehee/" >instagram profile</a></h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="instafeed">
+            <button class="instafeedlink" formaction="https://www.instagram.com/theclocollective/">Instagram</button>
+            <br>
+        </div>
+        <script type="text/javascript" src="instafeed.min.js"></script>
+        <script type="text/javascript">
+            var feed = new Instafeed({
+                //clientId: '69f602f955ff4bb29bd8514c9f03681b'
+                accessToken: '39613748.69f602f.e6e67c988c8e4c0c9cee521265b5c33b',
+                target: 'instafeed',
+                template: '<a class="animation" href="{{link}}"><img src="{{image}}" /></a>',
+                get: 'user',
+                //tagName: '',
+                //locationId: '',
+                userId: '39613748',
+                sortBy: 'most-recent',
+                limit: '6',
+                resolution: 'thumbnail'
+                
+                /*
+                before: null,
+                after: '',
+                success: '',
+                error: '',
+                mock: '',
+                filter: ''
+                */
+                
+                
+                });
+            feed.run();
+        </script>
+    </body>
+</html>

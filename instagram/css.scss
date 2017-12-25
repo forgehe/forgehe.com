@@ -1,0 +1,27 @@
+
+.instafeed a {
+	padding: 0 10px;
+	:hover {
+		filter: brightness(70%);
+		-webkit-filter: brightness(70%);
+	    -moz-filter: brightness(70%);
+	    -o-filter: brightness(70%);
+	    -ms-filter: brightness(70%);
+	}
+}
+
+.instafeedlink {
+	background:    #ffffff;
+	border:        2px solid #444444;
+	border-radius: 5px;
+	width:         250px;
+	height:        50px;
+	color:         #444444;
+	display:       inline-block;
+	font:          normal 400 24px/50px "Ubuntu", sans-serif;
+	text-align:    center;
+	text-shadow:   none;
+	:hover {
+		background: #f5f5f5;
+	}
+}
